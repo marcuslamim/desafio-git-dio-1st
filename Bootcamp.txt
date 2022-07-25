@@ -1,0 +1,205 @@
+BOOTCAMP SANTANDER FULLSTACK JUNIOR
+
+PENSAMENTO COMPUTACIONAL:
+-Vai além e precede o computador em si (receitas, p ex);
+
+HABILIDADES COMPLEMENTARES:
+-Raciocínio Lógico 
+(pensamento estruturado/raciocínio visando à resolução de um problema)
+INDUÇÃO (extrapolar para leis e teorias gerais, induz que algo acontece a partir de observações, 
+eg. ciências experimentais); sint.
+DEDUÇÃO (Inverso da Indução, a partir das teorias/leis, chega-se à conclusões) anal.
+ABDUÇÃO (a partir de algo observado/conclusão, chega-se à premissa "a grama está
+molhada, logo deve ter chovido"; """detetives,peritos,médicos,cena do crime""") sint.
+-Aperfeiçoamento
+(encontrar soluções eficientes-melhor uso de recursos;otimizar,simplificar códigos,
+funções bem definidas)
+
+PILARES:
+-DECOMPOSIÇÃO:
+(Dividir problema complexo em problemas menores,
+quebrar e determinar partes menores e mais gerenciáveis,
+depois combinar e recompor o problema original)
+(ex. cozinhar: identificar ingredientes, determinar etapas, executar cada etapa, agregar ing)
+(criar um app; finalidade/interface/requisitos/funcionalidades)
+(movimentos de um avatar, [correr=mover perna+impulsionar, ex)
+-PADRÕES:
+(Modelo-base. detectando similaridades e diferenças, 
+ex, imagem de rede social que é comprimida antes de ser salva no server)
+ex. azulazulazulverdeverdeamarelopretopretoamarelo = 3azul2verde1amarelo2preto1amarelo)
+por quê? -> generalizar objetivando resolver problemas diferentes
+-computador reconhece padrões por comparação
+-ABSTRAÇÃO:
+isolar um objeto da realidade; generalizar, torna-se geral
+(características,pontos essenciais, generalizar em vez de detalhar
+ex: dados de estudantes (nome,curso,telefone,trabalho,hobby -> 
+posso descartar, por exemplo, hobby e trabalho)
+ex nas LP: clustering, busca binária, as próprias LPs são abstrações)
+-ALGORITMOS:
+(Computador não opera sozinho, precisa de INSTRUÇÕES, e DETALHADAS
+=PROGRAMAS, que se constituem DOS ALGORITMOS (passo-a-passo)
+-devem ser entendidos pela máquina E pelo humano:
+-analisar o problema, dados de entrada e de saída esperados. 
+-escrever o algoritmo
+-codificar o algoritmo (lp)
+(ex: preparar um lanche;trocar lâmpada;receita de bolo;trajeto ao trabalho)
+como fazer? 
+-compreender o problema;
+-definir dados de entrada;
+-definiri processamento;
+-definir dados de saída;
+-utilizar método de construção/refinamento;
+-testes e diagnósticos
+como se constrói?  narrativas/fluxograma/pseudocódigo (portugol)
+
+
+FUNDAMENTOS DE ALGORITMOS
+tipos de dados: caractere, numérico, booleano (lógico)
+variável: estrutura mutável, incerto, instável, variações (mais de um valor)
+exemplo: c numa estrutura a+b=c
+INSTRUÇÕES PRIMITIVAS:
+variáveis e constantes +operadores matemáticos
+exemplo de instrução primitiva: area = pi*raio^2
+(sintaxes são particulares a cada LP)
+entrada de dados -> processamento -> saída
+-estruturas condicionais (condição ou suposição), podendo
+haver condições e exceções para a operação
+operadores relacionais: = <> > < >= <= 
+operadores lógicos: and or not
+-estruturas de repetição (laços,malhas de repetição, loop, fluxo)
+para não entrar em loop, condição satisfetia ou numero de repetições
+(condições de parada) (enquanto...faça, repita...até, etc) FOR
+*posso usar uma condicional dentro de uma estrutura de repetição*
+-(1)Vetores e (2)Matrizes
+(1) variável dimensionada com tamanho pré-fixado (conteiner, "lista")
+(2) Tabela (linhas/colunas/mxn) multidimensional, "coleção"de variáveis, com indíces
+-Funções (subrotinas):vêm da matemática 
+(blocos de instruções que realizam tarefas específicas (modular o problema)
+: identificados por nomes e parâmetros
+-Instruções de Entrada e Saída
+(inserção de dados (interface, inclusive banco de dados e metadados)>
+<interface imprime os dados, arquivos, tela, banco de dados,etc, querys de bd
+>> condicional/incondicional
+
+
+LINGUAGENS DE PROGRAMAÇÃO:
+primeiros computadores a válvula e relés;
+programação por fios;
+anos80: primeiros computadores gráficos e user-friendly;
+primeiras linguagens: Assembly (Linguagem de Máquina) 1949
+anos 1950: computadores enormes de universidades;
+anos 1960: Fortran;
+ANOS 70: Machine Learning, Basic, C
+Anos 90: C#, Javascript, Java, Ruby, Python (Orientadas a objeto)
+Typescript, GO
+-Problemas Computacionais são recorrentes, hoje p ex temos Big Data
+(Problemas de decisão, problemas de busca,
+LP: Método padronizado com regras sintáticas e semânticas
+de implementação de um código-fonte (traduzido ou interpretado)
+Compilador analisa o programa, virando linguagem de máquina (assembly)
+na interpretação, o programa é executado imediatamente
+PARADIGMAS: estruturado (sequencia,decisão,iteração), C
+                              orientado a objeto (classe) (atributos/métodos/estados)
+classes mãe (generalista), e filhas (específicas)
+
+
+GIT E GITHUB:
+CMD (DIR) Mostra pastas
+cd /  enter : mostra root do diretorio do windows
+cd Windows (abre pasta windows nativa)
+C:\Windows>dir (mostra as subpastas)
+retroceder: cd ..
+limpar:  cls
+TAB: função de autocompletar
+criar pasta: mkdir nomedapasta
+criar arquivo: entrar na pasta, depois echo hello > hello.txt
+Exlcluir diretório: rmdir nomedapasta /S /Q
+Excluir arquivos: del nomedapasta
+
+TIPOS BÁSICOS DE OBJETOS NO GIT:
+BLOBS: tem um tamanho (string ou arquivo) \0 e o conteúdo
+TREES: armazenam e apontam para blobs ou outras árvores
+COMMITS: aponta para tree, parente, autor, mensagem
+(Se alterar o sha1 da blob, altera tbm o sha1 da árvore, etc)
+GIT é um sistema distribuído seguro
+
+CHAVES SSH e TOKENS:
+(1) forma de estabelecer uma conexão segura e criptografada entre 2 máquinas
+1 chave pública (nossa máquina) e 1 chave privada
+no GIT BASH: criar chave pública
+(2) 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
+gerado via github
+
+(((((
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~
+$ ssh-keygen -t ed25519 -C marcus.lamim@gmail.com
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/Marcus/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Marcus/.ssh/id_ed25519
+Your public key has been saved in /c/Users/Marcus/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:JzWVCXXkU71sUodtipl98QvaVEpXzm+HdYoC1fvboqE marcus.lamim@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|          o+o+oo=|
+|         . .++.O=|
+|        . o .*OoX|
+|         o .=*oO=|
+|        S o =.*.=|
+|         o o ..o.|
+|            .  o |
+|           . .o .|
+|          E .. . |
++----[SHA256]-----+
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~
+$ cd /c/Users/Marcus/.ssh/
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$ ls
+id_ed25519  id_ed25519.pub
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$ cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIZnZ4gUA2j1iWhVsvdGroyEwTfVSDmH6VMjIihJVZ2L marcus.lamim@gmail.com
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$ ^C
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$ pwd
+/c/Users/Marcus/.ssh
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$ eval $(ssh-agent -s)
+Agent pid 1026
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$ ls
+id_ed25519  id_ed25519.pub
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$ ssh-add id_ed25519
+Enter passphrase for id_ed25519:
+Identity added: id_ed25519 (marcus.lamim@gmail.com)
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$ git clone^C
+
+Marcus@LAPTOP-5FOOFUMV MINGW64 ~/.ssh
+$
+))))))
+
+(markdown - tipo de arquivo mais "humano" de HTML
+(git add *)
+(git commit  -m "commit inicial" )
+o número esquisito gerado é o ínicio do SHA1 (criptografado antes)
+*commit é envelopar, integrar o objeto staged na forma de um commit (objeto)
+*ele retorna todos os arquivos para unmodified, criando um snapshot do código 
+naquele momento
+-ambiente de servidor -servidor (remote repository)
+-tudo que está no repositório local tem que estar "commitado" para poder
+ser enviado ao repositório remoto (~github)
